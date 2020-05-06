@@ -1,17 +1,18 @@
-#page {
-    margin-left: 200px;
+#profile_leftPanel {<!-- w  w  w.j  a va2  s . co  m-->
+  width: 150px;
+  float: left;
+  border-right: 1px solid #666;
+  margin-right: 20px;
 }
-#maincontent {
-    float: right;
-    width: 100%;
-    background-color: #F0F0F0;
+
+#profile_rightPanel_center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
-#menuleftcontent{
-    float: left;
-    width: 200px;
-    margin-left: -200px;
-    background-color: #CCCCCC;
-}
-#clearingdiv {
-    clear: both;
+
+#recentStatus {
+  width: 400px;
+  text-align: center;
+  display: inline;
 }
