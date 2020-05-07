@@ -168,6 +168,20 @@
 
 	};
 
+	var clickContact = function() {
+
+		$('#contact_click').click(function(event){
+			
+	    	$('html, body').animate({
+	        	scrollTop: $('[data-section="' + "contact" + '"]').offset().top - 55
+	    	}, 500);
+
+		    event.preventDefault();
+		    return false;
+		});
+
+	};
+
 	// Reflect scrolling in navigation
 	var navActive = function(section) {
 
@@ -295,6 +309,8 @@
 		burgerMenu();
 
 		clickMenu();
+
+		clickContact(); //click contact in about
 		// navActive();
 		navigationSection();
 		// windowScroll();
